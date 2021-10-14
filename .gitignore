@@ -1,3 +1,4 @@
 /node_modules
 /youtube_travel_layout
-*.loc
+*.lock
+*.log
