@@ -1,0 +1,21 @@
+@import 'fonts';
+@import 'global';
+@import 'vars';
+
+.test {
+	text-align: center;
+	&__box {
+		color: green;
+	}
+}
+
+body{
+	background-color: blue;
+	
+	font-weight: 700;
+	p{
+		color: red;
+	}
+}
+
+@import 'media';
