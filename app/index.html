@@ -1,14 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>QWERy</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;700&display=swap"
+		rel="stylesheet">
 	<script defer src="js/main.min.js"></script>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-	init 
+
+	<header class="header">
+		<div class="header__inner">
+			<div class='container'>
+				<div class="header__nav">
+
+					<a href="#" class="header__logo-link">
+						<h3 class="header__logo-title">QWERy</h3>
+					</a>
+					<nav class="header__menu">
+						<ul class="header__menu-list">
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Information</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">About us</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Culture</a></li>
+						</ul>
+
+
+					</nav>
+					<button class="header__search">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M15.564 16.3392L10.8015 11.5759C8.68288 13.0821 5.76352 12.7136 4.08555 10.7283C2.40758 8.74294 2.53079 5.80301 4.36899 3.96502C6.2067 2.12622 9.14693 2.00248 11.1326 3.68036C13.1184 5.35825 13.487 8.27789 11.9807 10.3967L16.7432 15.16L15.5648 16.3384L15.564 16.3392ZM7.90399 4.16667C6.32374 4.16632 4.9604 5.27558 4.63938 6.82288C4.31837 8.37018 5.12791 9.93024 6.57788 10.5585C8.02786 11.1869 9.71974 10.7107 10.6292 9.41839C11.5386 8.12608 11.4157 6.37278 10.3348 5.22002L10.839 5.72002L10.2707 5.15335L10.2607 5.14335C9.63714 4.516 8.78848 4.16429 7.90399 4.16667Z"
+								fill="white" />
+						</svg>
+						Search
+					</button>
+				</div>
+				<div class="header__main">
+					<div class="header__info">
+						<h4 class="section__suptitle ">explore the Nature Beauty</h4>
+						<h1 class="header__title">Discover <br>
+							<span>Wonderful Indonesia</span>
+						</h1>
+					</div>
+
+					<a href="#" class="button button-scroll">Scroll down <svg>
+							<use xlink:href="sprite.svg#svg--arrow-downward-down"></use>
+						</svg></a>
+					<div class="header__social">
+						<h3 class="header__social-title">Follow us</h3>
+						<ul class="header__social-list">
+							<li class="header__social-item"><a href="#" class="header__social-link">
+									<svg>
+										<use xlink:href="sprite.svg#svg--instagram"></use>
+									</svg>
+								</a></li>
+							<li class="header__social-item"><a href="#" class="header__social-link">
+									<svg>
+										<use xlink:href="sprite.svg#svg--twitter"></use>
+									</svg>
+								</a></li>
+							<li class="header__social-item"><a href="#" class="header__social-link">
+									<svg>
+										<use xlink:href="sprite.svg#svg--facebook"></use>
+									</svg>
+								</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="header__overlay"></div>
+
+	</header>
+	<section class="main">
+		<div class="container">
+			<div class="section__cols">
+				<div class="section__col section__col-info">
+					<h3 class="section__suptitle">
+						EAST nUSA TENGGARA
+					</h3>
+					<h2 class="section__title">
+						Have you enjoyed your holiday?
+					</h2>
+					<p class="section__text">
+						You will be amazed if you take part in this sailing Komodo island tour package. So it is also
+						mandatory for you, besides
+						enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism. The
+						beautiful waters of Komodo will
+						make you meet many travelers from other countries.
+					</p>
+					<a href="#" class="button button-more">read more
+						<svg>
+							<use xlink:href="sprite.svg#svg--arrow-downward"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="section__col section__col-image">
+					<img src="./images/image_1.jpg" alt="image" class="section__col-img">
+				</div>
+			</div>
+
+			<div class="section__slider">
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="section__slider-inner">
+								<img src="./images/image_2.jpg" alt="img" class="section__slider-img">
+								<div class="section__slider-info">
+									<h3 class="section__suptitle">
+										Bromo
+									</h3>
+									<h2 class="section__title">
+										Steady your steps, we will climb together!
+									</h2>
+									<p class="section__text">
+										Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of
+										Mount Semeru that soars into the sky, and
+										gazing at the beauty of the sun moving out of its bed or otherwise enjoying the
+										dim twilight from the Bromo ridge is an
+										unforgettable experience when visiting Bromo.
+									</p>
+									<a href="#" class="button button-more">read more
+										<svg>
+											<use xlink:href="sprite.svg#svg--arrow-downward"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="section__slider-inner">
+								<img src="./images/image_2.jpg" alt="img" class="section__slider-img">
+								<div class="section__slider-info">
+									<h3 class="section__suptitle">
+										Bromo
+									</h3>
+									<h2 class="section__title">
+										Steady your steps, we will climb together!
+									</h2>
+									<p class="section__text">
+										Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of
+										Mount Semeru that soars into the sky, and
+										gazing at the beauty of the sun moving out of its bed or otherwise enjoying the
+										dim twilight from the Bromo ridge is an
+										unforgettable experience when visiting Bromo.
+									</p>
+									<a href="#" class="button button-more">read more
+										<svg>
+											<use xlink:href="sprite.svg#svg--arrow-downward"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="section__slider-inner">
+								<img src="./images/image_2.jpg" alt="img" class="section__slider-img">
+								<div class="section__slider-info">
+									<h3 class="section__suptitle">
+										Bromo
+									</h3>
+									<h2 class="section__title">
+										Steady your steps, we will climb together!
+									</h2>
+									<p class="section__text">
+										Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of
+										Mount Semeru that soars into the sky, and
+										gazing at the beauty of the sun moving out of its bed or otherwise enjoying the
+										dim twilight from the Bromo ridge is an
+										unforgettable experience when visiting Bromo.
+									</p>
+									<a href="#" class="button button-more">read more
+										<svg>
+											<use xlink:href="sprite.svg#svg--arrow-downward"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev1">
+						<svg>
+							<use xlink:href="sprite.svg#svg--shewron-left-big"></use>
+						</svg>
+					</div>
+					<div class="swiper-button-next1">
+						<svg>
+							<use xlink:href="sprite.svg#svg--shewron-left-big"></use>
+						</svg>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="section__cols">
+				<div class="section__col section__col-info">
+					<h3 class="section__suptitle">
+						INDONESIAN CULTURE
+					</h3>
+					<h2 class="section__title">
+						Our culture here is very friendly to people
+					</h2>
+					<p class="section__text">
+						known for his politeness, manners and gentleness. This becomes a characteristic when they mingle
+						with other tribes and
+						become basic traits that are passed down by their ancestors.
+					</p>
+					<a href="#" class="button button-more">read more
+						<svg>
+							<use xlink:href="sprite.svg#svg--arrow-downward"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="section__col section__col-image">
+					<img src="./images/image_3.jpg" alt="image" class="section__col-img">
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top">
+				<a href="#" class="footer__logo-link">
+					<h3 class="footer__logo-title">QWERy</h3>
+				</a>
+				<div class="footer__button">
+					<span>Ready to explore?</span>
+					<a href="#" class="button-primary">Get started</a>
+				</div>
+			</div>
+
+			<div class="footer__main">
+				<div class="footer__main-col">
+					<h3 class="footer__title">Let's go on vacation, Make your day</h3>
+					<form action="POST" class="footer__form">
+						<input class="footer__form-input" type="email" name="email" id="email"
+							placeholder="Email address">
+						<button class="footer__form-submit" type="submit">
+							<svg>
+								<use xlink:href="sprite.svg#svg--arrow-right-small"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+				<div class="footer__main-col">
+					<h4 class="footer__col-title">Services</h4>
+					<ul class="footer__col-list">
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Email Marketing</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Campaigns</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Branding</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Offline</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__main-col">
+					<h4 class="footer__col-title">About</h4>
+					<ul class="footer__col-list">
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Our Story</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Benefits</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Team</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Careers</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__main-col">
+					<h4 class="footer__col-title">Help</h4>
+					<ul class="footer__col-list">
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">FAQs</a>
+						</li>
+						<li class="footer__col-item">
+							<a href="#" class="footer__col-ref">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__disc">
+					<a href="#" class="footer__disc-ref">Terms & Conditions</a>
+					<a href="#" class="footer__disc-ref">Privacy Policy</a>
+				</div>
+				<ul class="footer__social">
+					<li class="header__social-item"><a href="#" class="header__social-link">
+							<svg>
+								<use xlink:href="sprite.svg#svg--instagram"></use>
+							</svg>
+						</a></li>
+					<li class="header__social-item"><a href="#" class="header__social-link">
+							<svg>
+								<use xlink:href="sprite.svg#svg--twitter"></use>
+							</svg>
+						</a></li>
+					<li class="header__social-item"><a href="#" class="header__social-link">
+							<svg>
+								<use xlink:href="sprite.svg#svg--facebook"></use>
+							</svg>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>
